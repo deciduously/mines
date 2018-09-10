@@ -78,4 +78,5 @@
     [grid (get-in @s/app-state [:grid])]] [:br] [:hr]
    [player]
    [debug] [:br]
+   [http-link "http://deciduously.com"] [:br]
    [http-link "https://github.com/deciduously/mines" "github"]])
