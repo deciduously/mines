@@ -1,7 +1,6 @@
 # Mines!
 Minesweeper in [Reagent](https://reagent-project.github.io/).  Currently a tad broken.
 ### Play
-Current version available on [deciduously.com](http://deciduously.com/static/extern/mines/index.html).
 
 To build locally, you need `git`, `java`, and `boot`.  Refer to your OS documentation to obtain a Java installation.  To quickly make `boot` available, this [Makefile](https://gist.github.com/deciduously/3451bfc89414c56ef734ceebeeb7db14) provides a `make deps` command which will retrieve the `boot` shim via `curl`, placing it in `./bin`.  It's very small - `boot` will gather the needed dependencies itself on first run.
 
